@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tiktokzoo",
+  "version": "${version}",
+  "name": "TikTok Zoo",
+  "description": "Spawns animals when TikTok Live viewers follow or send gifts.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["il.tiktokzoo.TikTokZoo"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
